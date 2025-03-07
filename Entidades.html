@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Entidades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .table-container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background: #007BFF;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        .category {
+            background: #333;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .subcategory {
+            color: white;
+            font-weight: bold;
+        }
+        .exu-mirim {
+            background: #fff;
+            font-weight: bold;
+            text-align: center;
+        }
+        .exu-mirim-text {
+            background: linear-gradient(to right, black, red);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <tr class="category">
+                <td colspan="2">Direita</td>
+            </tr>
+            <tr class="subcategory">
+                <td colspan="2" style="color: green;">Caboclos</td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td>Rompe Mato / Lua Grande / Caboclo do Sol / 3 Pontas</td></tr>
+            <tr><td>Leandro</td><td>Tupinambá / Ogum Guerreiro</td></tr>
+            <tr><td>Patrícia</td><td>7 Estrelas</td></tr>
+            <tr><td>Denise</td><td>Jurema / Arranca Toco</td></tr>
+            <tr><td>Gilmara</td><td>Jurema Velha / 7 Pedreiras</td></tr>
+            <tr><td>Ricardo</td><td>7 Flechas</td></tr>
+            <tr><td>Nathalia</td><td>Cobra Coral / Cobra Dourada</td></tr>
+            <tr><td>Nathanael</td><td>7 Folhas</td></tr>
+
+            <tr class="subcategory">
+                <td colspan="2" style="color: black;">Preto-Velho</td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td> Pai João da Mata </td></tr>
+            <tr><td>Leandro</td><td>Pai Zé </td></tr>
+            <tr><td>Patrícia</td><td> Vó Carmem</td></tr>
+            <tr><td>Denise</td><td>Vó Zefa</td></tr>
+            <tr><td>Gilmara</td><td>Vó Maria do Rosário </td></tr>
+            <tr><td>Ricardo</td><td>Pai Sebastião </td></tr>
+            <tr><td>Nathalia</td><td></td></tr>
+            <tr><td>Nathanael</td><td>Pai João do Oriente</td></tr>
+
+            <tr class="subcategory">
+                <td colspan="2" style="color: #FF1493;">Erê</td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td>Fernandinho das 7 Ondas</td></tr>
+            <tr><td>Leandro</td><td>Miguel</td></tr>
+            <tr><td>Patrícia</td><td>Clarinha</td></tr>
+            <tr><td>Denise</td><td>Ricardinho </td></tr>
+            <tr><td>Gilmara</td><td>Catarina</td></tr>
+            <tr><td>Ricardo</td><td>Pedrinho</td></tr>
+            <tr><td>Nathalia</td><td>Joaquin / Joaninha</td></tr>
+            <tr><td>Nathanael</td><td>Pedrinho</td></tr>
+
+            <tr class="subcategory">
+                <td colspan="2" style="color: yellow;">Baianos</td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td>Zé Baiano da Mata</td></tr>
+            <tr><td>Leandro</td><td>Zé Pilintra</td></tr>
+            <tr><td>Patrícia</td><td>Maria das Rosas</td></tr>
+            <tr><td>Denise</td><td>Maria dos Remédios</td></tr>
+            <tr><td>Gilmara</td><td>Rosa / João do Coqueiro</td></tr>
+            <tr><td>Ricardo</td><td>Chico Baiano</td></tr>
+            <tr><td>Nathanael</td><td>Zé do Coco</td></tr>
+            
+            <tr class="subcategory">
+                <td colspan="2" style="color: orange;">Boiadeiros</td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td>Caboclo Boiadeiro</td></tr>
+            <tr><td>Leandro</td><td>Laço Forte</td></tr>
+            <tr><td>Patrícia</td><td>Serra Negra</td></tr>
+            <tr><td>Denise</td><td>Boiadeiro da Encruzilhada</td></tr>
+            <tr><td>Gilmara</td><td>Francisco</td></tr>
+            <tr><td>Ricardo</td><td>Cícero</td></tr>
+            <tr><td>Nathalia</td><td>Caboclo Vaqueiro</td></tr>
+            
+            <tr class="subcategory">
+                <td colspan="2" style="color: cyan;">Marinheiro</td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td>Marujo das 7 Ondas </td></tr>
+            <tr><td>Leandro</td><td>7 Âncoras </td></tr>
+            <tr><td>Patrícia</td><td>Pirata </td></tr>
+            <tr><td>Denise</td><td>Joca</td></tr>
+            <tr><td>Gilmara</td><td>Martim Pescador </td></tr>
+            <tr><td>Ricardo</td><td>7 Flechas</td></tr>
+            <tr><td>Nathalia</td><td>João Pescador </td></tr>
+            <tr><td>Nathanael</td><td>Adalberto Luiz</td></tr>
+
+            <tr class="subcategory">
+                <td colspan="2" style="color: gold;">Cigano</td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td>Don Rufino </td></tr>
+            <tr><td>Leandro</td><td>Raul</td></tr>
+            <tr><td>Patrícia</td><td>Juanita</td></tr>
+            <tr><td>Denise</td><td>Romeu</td></tr>
+            <tr><td>Gilmara</td><td>Laurita</td></tr>
+            <tr><td>Ricardo</td><td>Martinez</td></tr>
+            <tr><td>Nathalia</td><td>Rubi</td></tr>
+            <tr><td>Nathanael</td><td></td></tr>
+
+            <tr class="subcategory">
+                <td colspan="2" style="color: black;">Malandro</td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td>Zé Pretinho </td></tr>
+            <tr><td>Leandro</td><td>Zé Pilintra </td></tr>
+            <tr><td>Patrícia</td><td></td></tr>
+            <tr><td>Denise</td><td>Maria Navalha</td></tr>
+            <tr><td>Gilmara</td><td>Mané da Porto do Cais</td></tr>
+            <tr><td>Ricardo</td><td>Zé do Beco</td></tr>
+            <tr><td>Nathalia</td><td>Zé Pilintra da estrada / Rosa Navalha</td></tr>
+            <tr><td>Nathanael</td><td>Zé do Cabaré</td></tr>
+            
+            <tr class="category">
+                <td colspan="2">Esquerda</td>
+            </tr>
+            <tr class="subcategory">
+                <td colspan="2" style="color: black;">Exus</td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td>Rei das 7 Encruzilhadas / Zé da Foice / Exu Cigano dos 7 Punhais</td></tr>
+            <tr><td>Leandro</td><td>7 Porteiras / Exu Caveira</td></tr>
+            <tr><td>Patrícia</td><td>Pirata / Formiga</td></tr>
+            <tr><td>Denise</td><td>Treme Terra</td></tr>
+            <tr><td>Gilmara</td><td>Marabô / Labareda</td></tr>
+            <tr><td>Ricardo</td><td>7 Montanhas / Pimenta / Lodo</td></tr>
+            <tr><td>Nathalia</td><td>7 Lansas / Exu Maré</td></tr>
+            <tr><td>Nathanael</td><td>Cobra do Deserto</td></tr>
+
+        <tr class="subcategory">
+                <td colspan="2" style="color: red;">Pomba-Gira</td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td>Dama da Noite </td></tr>
+            <tr><td>Leandro</td><td>Menina</td></tr>
+            <tr><td>Patrícia</td><td> Rosa Negra</td></tr>
+            <tr><td>Denise</td><td>Maria Mulambo</td></tr>
+            <tr><td>Gilmara</td><td>Maria Mulambo</td></tr>
+            <tr><td>Ricardo</td><td>7 Montanhas / Pimenta / Lodo</td></tr>
+            <tr><td>Nathalia</td><td>Eleonora / 7 catacumbas</td></tr>
+            <tr><td>Nathanael</td><td>Maria Padilha / Rainha do Inferno</td></tr>
+
+            <tr class="exu-mirim">
+                <td colspan="2"><span class="exu-mirim-text">Exu-Mirim</span></td>
+            </tr>
+            <tr><td>Sr. Claudinei</td><td>Zizinho</td></tr>
+            <tr><td>Leandro</td><td> 7 Porteirinhas </td></tr>
+            <tr><td>Patrícia</td><td></td></tr>
+            <tr><td>Denise</td><td>7 Catacumbinhas</td></tr>
+            <tr><td>Gilmara</td><td>Kalunguinha</td></tr>
+            <tr><td>Ricardo</td><td> Faísca</td></tr>
+            <tr><td>Nathalia</td><td> morceguinho / Menina</td></tr>
+            <tr><td>Nathanael</td><td>Cobrinha</td></tr>
+            
+        </table>
+    </div>
+</body>
+</html>
